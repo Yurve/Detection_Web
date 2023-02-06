@@ -61,6 +61,22 @@
       "PackagePath": "staticwebassets\\js\\detect.js"
     },
     {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\js\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\js\\signalr.js.map",
+      "PackagePath": "staticwebassets\\js\\signalr.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\js\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\js\\signalr.min.js.map",
+      "PackagePath": "staticwebassets\\js\\signalr.min.js.map"
+    },
+    {
       "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\fire.jpg",
       "PackagePath": "staticwebassets\\model\\fire.jpg"
     },
