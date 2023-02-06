@@ -1,0 +1,147 @@
+@page "/thumbnail/{userid:guid}/{cameraid:int}"
+@page "/thumbnail"
+
+
+@inject IJSRuntime _Jsruntime
+
+<div class="row">
+    my userId = @UserId <br />
+    my cameraId = @cameraid <br />
+</div> <br />
+
+<div>
+    <button class="btn btn-primary" @onclick="bluetooth">블루투스</button>
+</div>
+
+
+<div>
+    <button class="btn btn-primary" @onclick="Camshift">Use Opencv.js</button>
+    <button class="btn btn-primary" @onclick="motionDetecet">do not use Opencv.js</button>
+    <button class="btn btn-primary" @onclick="TensorflowJs">Use Tensorflos.JS</button>
+    <button class="btn btn-primary" @onclick="faceDetect">Use faceDetect</button>
+    <video id="video" autoplay></video>
+    @* tensorflow.js 를 이용한 화재 감지 프레임이 너무 낮다... *@
+    <canvas id="videoCanvas_detect"></canvas>
+</div>
+
+
+<div>
+    @* opencv.js 를 이용한 움직임 감지 *@
+    <canvas id="canvasOutput"></canvas>
+
+    @* js코드만 사용한 움직임 감지 *@
+    <canvas hidden id="snapshotOutput"></canvas>
+    <canvas id="canvasFinal" autoplay></canvas>
+
+    @* 썸네일 전송하는 캔버스 *@
+    <canvas hidden id="canvas_image"></canvas>
+
+    @* 얼굴 감지를 하는 캔버스 *@
+    <canvas id="canvas_face"></canvas>
+</div>
+
+@if(isWebRTC){
+<div id="displayWebRTC">
+        <WebRTC UserId=@UserId CameraId=@cameraid/>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Guid UserId { get; set; }
+
+    [Parameter]
+    public int cameraid { get; set; }
+
+    //일단 이렇게 하드코딩
+    string UseridDarcy = "6b57a785-aabf-441a-a881-cb8f72dfdb2d";
+    int CameraidDarcy = 9;
+    static bool isWebRTC = false;
+    
+    //썸넬의 크기 426:240 (16:9)의 형태
+    private int width = 426;
+    private int height = 240;
+
+
+    //카메라
+    public async Task SetVideo()
+    {
+        await _Jsruntime.InvokeVoidAsync("setVideo", width, height);
+    }
+
+    //MQTT client 생성, 토픽 구독
+    public async Task SetMqtt()
+    {  
+      await _Jsruntime.InvokeVoidAsync("SetMqtt", CameraidDarcy);
+    }
+
+    //MQTT로 썸네일 전송
+    public async Task SendThumbnail()
+    {
+        await _Jsruntime.InvokeVoidAsync("SendThumbnail", CameraidDarcy);
+    }
+
+    //순서 1.비디오를 킨다 2. MQTT 접속을한다 3. 썸네일 전송을 시작한다
+    protected override async Task OnAfterRenderAsync(bool firstRander)
+    {
+        if (firstRander)
+        {
+            await SetVideo();
+            await SetMqtt();
+            //일단 하드코딩
+            if(UserId == Guid.Empty){
+                UserId = Guid.Parse(UseridDarcy);
+                cameraid = CameraidDarcy;
+            }
+        }
+        await SendThumbnail();
+    }
+
+    //버튼을 누를시 모터제어를 할 기기와 블루투스 연동을 시작한다.
+    public async Task bluetooth()
+    {
+        await _Jsruntime.InvokeVoidAsync("SetBluetooth");
+    }
+
+    [JSInvokable]
+    public void showWebRTC(bool boolWebRTC)
+    {
+        isWebRTC = boolWebRTC;
+        StateHasChanged(); 
+    }
+
+    //opencv.js를 사용한 움직임 감지 움직임 감지가 너무 예민하다...
+    public async Task Camshift()
+    {
+        await _Jsruntime.InvokeVoidAsync("Camshift");
+    }
+
+    //움직임이 변하는 부분만 색을 다르게 하는 js코드
+    public async Task motionDetecet()
+    {
+        await _Jsruntime.InvokeVoidAsync("js_motion");
+    }
+
+    //tensorflow.js를 사용한 화재 감지 프레임이 너무 낮다...
+    public async Task TensorflowJs()
+    {
+        await _Jsruntime.InvokeVoidAsync("tfjs");
+    }
+
+    //얼굴 감지 xml파일을 읽지 못함
+    public async Task faceDetect()
+    {
+        String facePath = System.IO.Path.Combine(Directory.GetCurrentDirectory(),
+        "wwwroot/model/haarcascade_frontalface_default.xml");
+
+        await _Jsruntime.InvokeVoidAsync("faceDetect", facePath);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+       await _Jsruntime.InvokeVoidAsync("dotnetHelper", DotNetObjectReference.Create(this));
+    }
+
+
+}
+

@@ -1,0 +1,34 @@
+@page "/webRTC"
+
+@inject IJSRuntime _Jsruntime
+
+<div>
+    <video id="video"></video>
+    안녕 나는 webRTC 페이지야
+</div>
+
+@code {
+    [Parameter]
+    public Guid UserId { get; set; }
+
+    [Parameter]
+    public int CameraId { get; set; }
+
+    
+    private int width = 640;
+    private int height = 480;
+
+    public async Task SetVideo()
+    {
+        await _Jsruntime.InvokeVoidAsync("setVideo", width, height);
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRander)
+    {
+        if (firstRander)
+        {
+            await SetVideo();
+        }
+    }
+
+}

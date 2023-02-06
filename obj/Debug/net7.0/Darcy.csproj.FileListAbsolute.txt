@@ -1,0 +1,175 @@
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.staticwebassets.runtime.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.exe
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.deps.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.runtimeconfig.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.dll
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.pdb
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfo.cs
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cs
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.Darcy.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.build.Darcy.props
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Darcy.props
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Darcy.props
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\bundle\Darcy.styles.css
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\projectbundle\Darcy.bundle.scp.css
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.dll
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\refint\Darcy.dll
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.pdb
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.genruntimeconfig.cache
+C:\Users\user\OneDrive\바탕 화면\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\ref\Darcy.dll
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.staticwebassets.runtime.json
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.exe
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.deps.json
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.runtimeconfig.json
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.AssemblyReference.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfoInputs.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfo.cs
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.CoreCompileInputs.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cs
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.Darcy.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.build.Darcy.props
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Darcy.props
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Darcy.props
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\bundle\Darcy.styles.css
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\projectbundle\Darcy.bundle.scp.css
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\refint\Darcy.dll
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.genruntimeconfig.cache
+C:\Users\user\Detection Blazor\Detection\Darcy\obj\Debug\net7.0\ref\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.staticwebassets.runtime.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.exe
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.deps.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.runtimeconfig.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.AssemblyReference.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfoInputs.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.AssemblyInfo.cs
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.CoreCompileInputs.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cs
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.Darcy.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.build.Darcy.props
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Darcy.props
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Darcy.props
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\bundle\Darcy.styles.css
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\scopedcss\projectbundle\Darcy.bundle.scp.css
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\refint\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.genruntimeconfig.cache
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\ref\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\Microsoft.ML.OnnxRuntime.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\android\native\onnxruntime.aar
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\Info.plist
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\coreml_provider_factory.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\cpu_provider_factory.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_c_api.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\Info.plist
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64\onnxruntime.framework\onnxruntime
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\coreml_provider_factory.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\cpu_provider_factory.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_c_api.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_api.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Headers\onnxruntime_cxx_inline.h
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\Info.plist
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\ios\native\onnxruntime.xcframework\ios-arm64_x86_64-simulator\onnxruntime.framework\onnxruntime
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\linux-arm64\native\libonnxruntime.so
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\linux-x64\native\libonnxruntime.so
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\osx.10.14-arm64\native\libonnxruntime.dylib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\osx.10.14-x64\native\libonnxruntime.dylib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm\native\onnxruntime.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm\native\onnxruntime.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm\native\onnxruntime_providers_shared.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm\native\onnxruntime_providers_shared.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm64\native\onnxruntime.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm64\native\onnxruntime.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm64\native\onnxruntime_providers_shared.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-arm64\native\onnxruntime_providers_shared.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x64\native\onnxruntime.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x64\native\onnxruntime.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x64\native\onnxruntime_providers_shared.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x64\native\onnxruntime_providers_shared.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x86\native\onnxruntime.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x86\native\onnxruntime.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x86\native\onnxruntime_providers_shared.dll
+C:\Users\user\Detection_Blazor\Detection\Darcy\bin\Debug\net7.0\runtimes\win-x86\native\onnxruntime_providers_shared.lib
+C:\Users\user\Detection_Blazor\Detection\Darcy\obj\Debug\net7.0\Darcy.csproj.CopyComplete
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\appsettings.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.staticwebassets.runtime.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.exe
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.deps.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.runtimeconfig.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.csproj.AssemblyReference.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.AssemblyInfoInputs.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.AssemblyInfo.cs
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.csproj.CoreCompileInputs.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.RazorAssemblyInfo.cs
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets\msbuild.Darcy.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets\msbuild.build.Darcy.props
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Darcy.props
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Darcy.props
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\scopedcss\bundle\Darcy.styles.css
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\scopedcss\projectbundle\Darcy.bundle.scp.css
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\refint\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.pdb
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.genruntimeconfig.cache
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\ref\Darcy.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\bin\Debug\net7.0\Microsoft.Extensions.Features.dll
+C:\Users\user\Detection_Blazor\Detection_Web-master\obj\Debug\net7.0\Darcy.csproj.CopyComplete
