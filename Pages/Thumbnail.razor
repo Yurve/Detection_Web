@@ -18,7 +18,7 @@
     <button class="btn btn-primary" @onclick="Camshift">Use Opencv.js</button>
     <button class="btn btn-primary" @onclick="motionDetecet">do not use Opencv.js</button>
     <button class="btn btn-primary" @onclick="TensorflowJs">Use Tensorflos.JS</button>
-    <button class="btn btn-primary" @onclick="faceDetect">Use faceDetect</button>
+    @* <button class="btn btn-primary" @onclick="faceDetect">Use faceDetect</button> *@
     <video id="video" autoplay></video>
     @* tensorflow.js 를 이용한 화재 감지 프레임이 너무 낮다... *@
     <canvas id="videoCanvas_detect"></canvas>
@@ -129,19 +129,15 @@
     }
 
     //얼굴 감지 xml파일을 읽지 못함
-    public async Task faceDetect()
+    @* public async Task faceDetect()
     {
-        String facePath = System.IO.Path.Combine(Directory.GetCurrentDirectory(),
-        "wwwroot/model/haarcascade_frontalface_default.xml");
-
-        await _Jsruntime.InvokeVoidAsync("faceDetect", facePath);
-    }
+        await _Jsruntime.InvokeVoidAsync("faceDetect");
+    } *@
 
     protected override async Task OnInitializedAsync()
     {
        await _Jsruntime.InvokeVoidAsync("dotnetHelper", DotNetObjectReference.Create(this));
     }
-
 
 }
 

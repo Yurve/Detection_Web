@@ -22,7 +22,6 @@ var _Dotnet;  //전역변수로 dotnet 객체 할당
 //MQTT On
 window.SetMqtt = (CameraidDarcy) => {
     const TOPIC_MOTOR = "camera/update/degree/syn";
-    const TOPIC_MOTOR_ACK = "camera/update/degree/ack";
     const TOPIC_WEBRTC = "call/start";
     const TOPIC_WEBRTC_FIN = "call/stop";
 
@@ -220,17 +219,17 @@ window.js_motion = () => {
     // 움직임의 변화가 있다면, ex) 처음 사진의 1번 픽셀 R값이 5였고, 두번째 사진의 사진의 1번 픽셀 R값이 200이였다면 (5+200)/2 로 102.5가 나온다.
     // 따라서 변화가 생긴만큼 그림을 그리기 때문에 움직임 감지가 가능한 그림이 나온다. 단 alpha값이 최대값이므로 투명도가 255이므로 흐릿한 사진이다. 
 
-    var alpha = 0.5;
-    var version = 0;
-    var greyScale = false;
+    let alpha = 0.5;
+    let version = 0;
+    let greyScale = true;
 
     let video = document.querySelector('#video');
     let canvas = document.getElementById('snapshotOutput');
     let canvasFinal = document.getElementById('canvasFinal');
     let ctx = canvas.getContext('2d', { willReadFrequently: true });
     let ctxFinal = canvasFinal.getContext('2d');
-    var imgDataPrev = [];
-    var imgData = null;
+    let imgDataPrev = [];
+    let imgData = null;
 
     setInterval(snapshot, 32);
 
@@ -250,8 +249,8 @@ window.js_motion = () => {
 
         imgData = ctx.getImageData(0, 0, video.width, video.height);
 
-        var length = imgData.data.length; //426x240x4 == [가로x세로xRGBA]
-        var x = 0;
+        let length = imgData.data.length; //426x240x4 == [가로x세로xRGBA]
+        let x = 0;
         while (x < length) {
             if (!greyScale) {
                 // Alpha blending formula: out = (alpha * new) + (1 - alpha) * old.
@@ -261,9 +260,9 @@ window.js_motion = () => {
                 imgData.data[x + 3] = 255; //alpha;
             } else {
                 // GreyScale.
-                var av = (imgData.data[x] + imgData.data[x + 1] + imgData.data[x + 2]) / 3;
-                var av2 = (imgDataPrev[version].data[x] + imgDataPrev[version].data[x + 1] + imgDataPrev[version].data[x + 2]) / 3;
-                var blended = alpha * (255 - av) + ((1 - alpha) * av2);
+                let av = (imgData.data[x] + imgData.data[x + 1] + imgData.data[x + 2]) / 3;
+                let av2 = (imgDataPrev[version].data[x] + imgDataPrev[version].data[x + 1] + imgDataPrev[version].data[x + 2]) / 3;
+                let blended = alpha * (255 - av) + ((1 - alpha) * av2);
                 imgData.data[x] = blended;
                 imgData.data[x + 1] = blended;
                 imgData.data[x + 2] = blended;
@@ -395,7 +394,7 @@ window.tfjs = () => {
 }
 
 //opencv.js를 이용해 얼굴을 검출한다.
-window.faceDetect = (rootpath) => {
+window.faceDetect = () => {
     let video = document.querySelector('#video'); //비디오
     let src = new cv.Mat(video.height, video.width, cv.CV_8UC4);
     let dst = new cv.Mat(video.height, video.width, cv.CV_8UC4);
@@ -404,11 +403,36 @@ window.faceDetect = (rootpath) => {
     let faces = new cv.RectVector(); //얼굴의 좌표
     let classifier = new cv.CascadeClassifier(); //얼굴을 검출하는 분류기
     let canvas = document.getElementById('canvas_face'); //얼굴을 그릴 캔버스
+    const fileName = "model/haarcascade_frontalface_default.xml";
 
-    let _rootpath = "https://github.com/opencv/opencv/blob/master/data/haarcascades/";
+    //const _rootpath = "https://github.com/opencv/opencv/blob/master/data/haarcascades/";
 
-    classifier.load('model/haarcascade_frontalface_default.xml'); //얼굴을 검출하는 분류기를 불러온다.
+    // async function createFileFromUrl(url) {
+    //     try {
+    //         const response = await fetch(url);
+    //         const fileData = await response.text();
+    //         return fileData;
+    //     } catch (error) {
+    //         console.error(error);
+    //     }
+    // }
 
+    // async function loadFile() {
+    //     const fileData = await createFileFromUrl(fileName);
+    //     classifier.load(fileData);
+    // }
+
+    //loadFile();
+
+    function loadfileplz(url){
+        fetch(url).then(function(response) {
+            return response.text();
+        }).then(function(text) {
+            classifier.load(text);
+        });
+    }
+
+    loadfileplz(fileName);
 
     const FPS = 30; //FPS
     function processVideo() {
@@ -442,6 +466,7 @@ window.dotnetHelper = (objRef) => {
 
 let camera;
 
+//WebRTC 연결을 위한 객체 생성
 async function initializeCamera(connectionId, userId, cameraId, url) {
     camera = new Camera(connectionId, userId, cameraId, url);
     camera.addEventListeners();
@@ -516,6 +541,7 @@ window.onbeforeunload = function () {
     }
 }
 
+//WebRTC 연결을 위한 클래스
 class Camera {
     mediaStream;
     peerConnection;
@@ -636,7 +662,7 @@ class Camera {
 
     async handleIce(data) {
         if (data && data.candidate) {
-            const connection = new signalR.HubConnectionBuilder().withUrl("http://"+ url).build();
+            const connection = new signalR.HubConnectionBuilder().withUrl("http://" + url).build();
             await connection.start();
 
             console.log(data.candidate);
@@ -653,6 +679,9 @@ class Camera {
         if (data && data.stream) {
             this.remoteVideo = document.getElementById("remoteVideo");
             this.remoteVideo.srcObject = data.stream;
+            //좌우 반전
+            this.remoteVideo.style.transform = "scaleX(-1)";
+
         }
     }
 

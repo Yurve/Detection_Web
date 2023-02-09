@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.SignalR.Client": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "TensorFlowSharp": {
+              "target": "Package",
+              "version": "[1.15.1, )"
             }
           },
           "imports": [

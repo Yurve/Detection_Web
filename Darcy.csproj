@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.2" />
+    <PackageReference Include="TensorFlowSharp" Version="1.15.1" />
   </ItemGroup>
 
 </Project>

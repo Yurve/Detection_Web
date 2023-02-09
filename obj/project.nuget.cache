@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aYqG9ntdkyYUd1dUiDvZwnBPYh67AmE3AN5ZCq31CvLaby/8dI4G6K+Y0N2+HY5m7m1TN34S+6Drj3+OeiwHYQ==",
+  "dgSpecHash": "56Xe15VWixWXvMj1wDhplbMildLSkiN9uiQGxDryXknopgR8tGmcpMY/28sbVdzhSTC5ubTZ1TKFnyfsY8l5xQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\Darcy.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,9 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\tensorflowsharp\\1.15.1\\tensorflowsharp.1.15.1.nupkg.sha512"
   ],
   "logs": []
 }

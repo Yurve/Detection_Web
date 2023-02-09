@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X+91L2/tUUkSiVn4vawPLXyz2pzU0zjIC/Nn8h23H9c=",
+  "Hash": "lrafYeDVaJshryADQLf08HvijgV5lk0L+1kY3gH6jfc=",
   "Source": "Darcy",
   "BasePath": "_content/Darcy",
   "Mode": "Default",
@@ -357,23 +357,6 @@
       "OriginalItemSpec": "wwwroot\\js\\signalr.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\fire_640.onnx",
-      "SourceId": "Darcy",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\",
-      "BasePath": "_content/Darcy",
-      "RelativePath": "model/fire_640.onnx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\model\\fire_640.onnx"
-    },
-    {
       "Identity": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\fire.jpg",
       "SourceId": "Darcy",
       "SourceType": "Discovered",
@@ -389,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\model\\fire.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\firev8_float16.tflite",
+      "SourceId": "Darcy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\",
+      "BasePath": "_content/Darcy",
+      "RelativePath": "model/firev8_float16.tflite",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\model\\firev8_float16.tflite"
     },
     {
       "Identity": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\group1-shard1of7.bin",

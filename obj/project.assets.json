@@ -276,6 +276,53 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "TensorFlowSharp/1.15.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlowSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libtensorflow.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/libtensorflow_framework.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/libtensorflow.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libtensorflow_framework.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win7-x64/native/libtensorflow.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          }
+        }
       }
     }
   },
@@ -706,11 +753,77 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "TensorFlowSharp/1.15.1": {
+      "sha512": "KUePH+jQU27ze26jewCPV2a/cFcip0KoRJNTv3BdWX0Ow2qSoi90BLeSutbUH0p8ZJo7QRAZw4E2EppTMGm77g==",
+      "type": "package",
+      "path": "tensorflowsharp/1.15.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/TensorFlowSharp.targets",
+        "lib/net471/TensorFlowSharp.dll",
+        "lib/net471/TensorFlowSharp.xml",
+        "lib/netstandard2.0/TensorFlowSharp.dll",
+        "lib/netstandard2.0/TensorFlowSharp.xml",
+        "runtimes/linux/native/libtensorflow.so",
+        "runtimes/linux/native/libtensorflow_framework.so",
+        "runtimes/osx/native/libtensorflow.dylib",
+        "runtimes/osx/native/libtensorflow_framework.dylib",
+        "runtimes/win7-x64/native/libtensorflow.dll",
+        "tensorflowsharp.1.15.1.nupkg.sha512",
+        "tensorflowsharp.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.SignalR.Client >= 7.0.2"
+      "Microsoft.AspNetCore.SignalR.Client >= 7.0.2",
+      "TensorFlowSharp >= 1.15.1"
     ]
   },
   "packageFolders": {
@@ -755,6 +868,10 @@
           "Microsoft.AspNetCore.SignalR.Client": {
             "target": "Package",
             "version": "[7.0.2, )"
+          },
+          "TensorFlowSharp": {
+            "target": "Package",
+            "version": "[1.15.1, )"
           }
         },
         "imports": [

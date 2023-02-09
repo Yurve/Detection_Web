@@ -81,8 +81,8 @@
       "PackagePath": "staticwebassets\\model\\fire.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\fire_640.onnx",
-      "PackagePath": "staticwebassets\\model\\fire_640.onnx"
+      "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\firev8_float16.tflite",
+      "PackagePath": "staticwebassets\\model\\firev8_float16.tflite"
     },
     {
       "Id": "C:\\Users\\user\\Detection_Blazor\\Detection_Web-master\\wwwroot\\model\\group1-shard1of7.bin",
